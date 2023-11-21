@@ -1,0 +1,384 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Register || Fly Emirates</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-light bg-dark">
+            <div class="container" >
+                <div class="navbar-brand  bg-danger">
+                    <a href="./index.html"><img src="./assests/emirates-logo-badge.svg" width="110" alt=""></a>
+                </div>
+        </nav>
+
+        <main id="bodyDecoration" class="pt-5">
+            <div class="text-center container">
+                <small class="text-light fw-bold">L O Y A L T Y</small>
+                <h1 class="lucida text-center fw-bold display-7 text-light  px-3 my-3">Join Emirates Skywards</h1>
+                <p class="w-50 fw-thin mx-auto text-light text-center my-4 fs-5 pb-3">Open up a world of rewards every time you travel. Enjoy reward flights, upgrades, exclusive benefits and more.</p>
+            </div>
+
+            <div class="mx-auto col-7 bg-white shadow p-4 mb-5 rounded-2">
+                <div class="row mb-3 g-3">
+
+                    <div class="col-md-2 col-12">
+                        <select name="" id="title"  class="input shadow-hover">
+                            <option value="">Title</option>
+                            <option value="Master">Master</option>
+                            <option value="Mr">Mr</option>
+                            <option value="Miss">Miss</option>
+                            <option value="Mrs">Mrs</option>
+                            <option value="Ms">Ms</option>
+                        </select>
+                    </div>
+                    <div class="col-md-5 col-12">
+                        <input type="text" placeholder="First name" name="" id="fName" class="input shadow-hover p-3">
+                    </div>
+                    <div class="col-md-5 col-12">
+                        <input type="text" placeholder="Last name" name="" id="lName" class="input shadow-hover p-3">
+                    </div>
+                    <p class="text-secondary">Your name must be entered in English as it appears on your passport</p>
+
+                    <div class="col-md-6 col-12">
+                        <input type="email" placeholder="Email" name="" id="eMail" class="input shadow-hover p-3">
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <input type="password" placeholder="Password" name="" id="passW" class="input shadow-hover p-3">
+                    </div>
+                    <div class="col-md-6 col-12  ">
+                        <input type="date" placeholder="Date of birth" name="" id="dob" class="input shadow-hover p-3">
+                    </div>
+                    <div class="col-md-6 col-12 ">
+                        <input type="text" placeholder="Country/Territory or residence" name="" id="country" class="input shadow-hover p-3">
+                    </div>
+                    <div class="col-md-5 col-12 ">
+                        <input type="text" placeholder="Preferred Language" name="" id="lang" class="input shadow-hover p-3">
+                    </div>
+                    <div class="col-md-3 col-12 ">
+                        <input type="text" placeholder="Country code" name="countryCode" id="" class="input shadow-hover p-3">
+                    </div>
+                    <div class="col-md-4 col-12 ">
+                        <input type="text" placeholder="Mobile Number" name="" id="mNumber" class="input shadow-hover p-3">
+                    </div>
+
+                    <div class="col-md-7 col-12">
+                        <input type="text" placeholder="Enter invite code (optional)" name="" id="ivCode" class="input p-3 shadow-hover">
+                    </div>
+                    <p class="text-secondary">Already have an Emirates Skywards membership number?</p>
+                    <div>
+                        <input type="radio" name="numberM" id=""> <label for="">No</label>
+                        <input type="radio" name="numberM" id=""> <label for="">Yes</label>
+                    </div>
+                </div>
+
+                <div class="mb-3"> 
+                    <input type="checkbox" name="" id=""> <label class="" for="">Sign up to receive Emirates newsletters and special offer emails. You can unsubscribe at any time via the link in our emails, by updating your Emirates Skywards account preferences or by contacting us. For more details on how we use your personal information, please see our <a class="text-dark"><ins>privacy policy</ins></a>.
+                    </label>
+
+                    <input type="checkbox" name="" id=""> <label for="">Sign up to receive flydubai  newsletters and special offer emails. Your name and email address will be shared with flydubai for this purpose. Unsubscribe at any time via relevant link in flydubai emails, by updating your Emirates Skywards account preferences or by contacting Emirates or flydubai. For more details, please see flydubai's <a class="text-dark"><ins>privacy policy</ins></a>.
+                    </label>
+                </div>
+                <p>By creating an account you are agreeing to the Emirates Skyward <a href="" class="u-0 text-dark"><ins>Emirates Skywards programme rules</ins> </a> <i class="fa fa-share" aria-hidden="true"></i> and our <a class="u-0 text-dark"><ins>privacy policy</ins></a></p>
+
+                <div class="col-12 col-md-4 mx-auto">
+                    <button onclick="createAccount()" class="btn btn-sm btn-danger button100 mb-3">Create an account</button>
+
+                    <button onclick="createGoogle()" class="btn btn-sm btn-outline-danger button100">Create Account With Google</button>
+
+                </div>
+
+
+
+
+
+            </div>
+        </main>
+
+
+
+
+        <footer id="footing" class="py-5 mx-auto bg-black bg-gradient ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-3">
+                        <ul class="text-secondary">
+                            <h5 class="text-light lucida ">About Us</h5>
+                            <li class="list-none"> <a class="text-secondary text-dec fs-6 fw-light" href="">About us</a></li>
+                            <li class="list-none"> <a class="text-secondary text-dec fs-6 fw-light" href="">Careers <i class="fa fa-book" aria-hidden="true"></i></a></li>
+                            <li class="list-none"> <a class="text-secondary text-dec fs-6 fw-light" href="">Media Center <i class="fa fa-file" aria-hidden="true"></i></a></li>
+                            <li class="list-none"> <a class="text-secondary text-dec fs-6 fw-light" href="">Our Planet</a></li>
+                            <li class="list-none"> <a class="text-secondary text-dec fs-6 fw-light" href="">Our People</a></li>
+                            <li class="list-none"> <a class="text-secondary text-dec fs-6 fw-light" href="">Our Commununities</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <ul class="text-secondary">
+                            <h5 class="text-light lucida ">Help</h5>
+                            <li class="list-none"> <a class="text-secondary text-dec fs-6 fw-light" href="">Help and Contact </a></li>
+                            <li class="list-none"> <a class="text-secondary text-dec fs-6 fw-light" href="">Travel Updates</a></li>
+                            <li class="list-none"> <a class="text-secondary text-dec fs-6 fw-light" href="">Special assistance</a></li>
+                            <li class="list-none"> <a class="text-secondary text-dec fs-6 fw-light" href="">Frequently asked questions</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <ul class="text-secondary">
+                            <h5 class="text-light lucida ">Book</h5>
+                            <li class="list-none"> <a class="text-secondary text-dec fs-6 fw-light" href="">Book flights</a></li>
+                            <li class="list-none"> <a class="text-secondary text-dec fs-6 fw-light" href="">Travel services</a></li>
+                            <li class="list-none"> <a class="text-secondary text-dec fs-6 fw-light" href="">Transportation</a></li>
+                            <li class="list-none"> <a class="text-secondary text-dec fs-6 fw-light" href="">Planning your trip</a></li>
+                            <li class="list-none"> <a class="text-secondary text-dec fs-6 fw-light" href="">Search for flights</a></li>
+                            <li class="list-none"> <a class="text-secondary text-dec fs-6 fw-light" href="">Dubai Experience</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <ul class="text-secondary">
+                            <h5 class="text-light lucida ">Manage</h5>
+                            <li class="list-none"> <a class="text-secondary text-dec fs-6 fw-light" href="">Check-in</a></li>
+                            <li class="list-none"> <a class="text-secondary text-dec fs-6 fw-light" href="">Manage your booking</a></li>
+                            <li class="list-none"> <a class="text-secondary text-dec fs-6 fw-light" href="">Chauffeur drive</a></li>
+                            <li class="list-none"> <a class="text-secondary text-dec fs-6 fw-light" href="">Flight status</a></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr class="container" style="color: white;">
+            <div class="container py-3">
+                <div class="row">
+                    <div class="col-12 col-md-3">
+                        <ul class="text-secondary">
+                            <h5 class="text-light lucida ">Before you fly</h5>
+                            <li class="list-none"> <a class="text-secondary text-dec fs-6 fw-light" href="">Baggage</a></li>
+                            <li class="list-none"> <a class="text-secondary text-dec fs-6 fw-light" href="">Visa and passport information </a></li>
+                            <li class="list-none"> <a class="text-secondary text-dec fs-6 fw-light" href="">Health</a></li>
+                            <li class="list-none"> <a class="text-secondary text-dec fs-6 fw-light" href="">Travel information</a></li>
+                            <li class="list-none"> <a class="text-secondary text-dec fs-6 fw-light" href="">Dubai international</a></li>
+                            <li class="list-none"> <a class="text-secondary text-dec fs-6 fw-light" href="">To and from the airport</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <ul class="text-light">
+                            <h5 class="text-light lucida ">Where we fly</h5>
+                            
+                            <li class="list-none"> <a class="text-secondary text-dec fs-6 fw-light" href="">Route map </a></li>
+                            <li class="list-none"> <a class="text-secondary text-dec fs-6 fw-light" href="">Africa</a></li>
+                            <li class="list-none"> <a class="text-secondary text-dec fs-6 fw-light" href="">Asia and Pacific</a></li>
+                            <li class="list-none"> <a class="text-secondary text-dec fs-6 fw-light" href="">Europe</a></li>
+                            <li class="list-none"> <a class="text-secondary text-dec fs-6 fw-light" href="">The Amaricas</a></li>
+                            <li class="list-none"> <a class="text-secondary text-dec fs-6 fw-light" href="">The Middle East</a></li>
+                            <li class="list-none"> <a class="text-secondary text-dec fs-6 fw-light" href="">Flight to all countries/territories</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <ul class="text-secondary">
+                            <h5 class="text-light lucida ">Experience</h5>
+                            <li class="list-none"> <a class="text-secondary text-dec fs-6 fw-light" href="">Cabin features</a></li>
+                            <li class="list-none"> <a class="text-secondary text-dec fs-6 fw-light" href="">Shop Emirates</a></li>
+                            <li class="list-none"> <a class="text-secondary text-dec fs-6 fw-light" href="">What's on your flight</a></li>
+                            <li class="list-none"> <a class="text-secondary text-dec fs-6 fw-light" href="">Inflight entertainment</a></li>
+                            <li class="list-none"> <a class="text-secondary text-dec fs-6 fw-light" href="">Dining</a></li>
+                            <li class="list-none"> <a class="text-secondary text-dec fs-6 fw-light" href="">Our lounges</a></li>
+                            <li class="list-none"> <a class="text-secondary text-dec fs-6 fw-light" href="">Dubai Stopover</a></li>
+                            <li class="list-none"> <a class="text-secondary text-dec fs-6 fw-light" href="">Open Skies</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <ul class="text-secondary">
+                            <h5 class="text-light lucida ">Loyalty</h5>
+                            <li class="list-none"> <a class="text-secondary text-dec fs-6 fw-light" href="">Log in to Emirates Skywards</a></li>
+                            <li class="list-none"> <a class="text-secondary text-dec fs-6 fw-light" href="">Join Emirates Skywards</a></li>
+                            <li class="list-none"> <a class="text-secondary text-dec fs-6 fw-light" href="">Our Partners</a></li>
+                            <li class="list-none"> <a class="text-secondary text-dec fs-6 fw-light" href="">Business Rewards benefits</a></li>
+                            <li class="list-none"> <a class="text-secondary text-dec fs-6 fw-light" href="">Register your company</a></li>
+                            <li class="list-none"> <a class="text-secondary text-dec fs-6 fw-light" href="">Emirates Skywards Programme Rules</a></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <hr class="container" style="color: white;">
+            <div class="container py-3">
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <h5 class="text-light lucida ">Subscribe to our special offers</h5>
+                        <p class="text-secondary fs-6 ">Save with our latest fares and offers</p>
+                        <p> <a class="text-secondary fs-6" href="">Unsubscribe or change your prefereences</a></p>
+                        <input class="p-1" type="enail" placeholder="Email address" name="" id=""> <button class="ms-2 btn p-1 px-3 py-2 btn-sm btn-outline-light">Subscribe </button> <br>
+                        <div class="w-75 mt-3">
+                            <small class="text-secondary ">For details on how we use your information, please see our <ins>privacy policy</ins></small>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <h5 class="text-secondary lucida ">Emirate App</h5>
+                        <p class="mt-3 text-secondary fs-6 ">Book and manage your flight on the go</p>
+                        <img class="my-3" src="./assests/apple-en.svg" alt=""> <img class="my-3" src="./assests/google-en.svg" alt="">
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <h5 class="text-secondary lucida ">Connect with us</h5>
+                        <p class="mt-3 text-secondary fs-6 ">Share your Emirates expereience</p>
+                        <img src="./assests/apple-en.svg" alt=""> <img src="./assests/google-en.svg" alt="">
+                    </div>
+                    
+                </div>
+                
+
+            </div>
+            <hr >
+            <div class="container py-3">
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <div>
+                            <img class="w-75" src="./assests/img-1.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div>
+                            <img class="w-75" src="./assests/img-2.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div>
+                            <img class="w-75" src="./assests/img-3.svg" alt="">
+                        </div>
+                    </div>
+                    
+                </div>
+                
+
+            </div> 
+            <hr class="container" style="color: white;">
+            <div class="container">
+                <div class="d-flex w-75 flex-wrap">
+                    <a class="text-secondary pe-3 text-dec" href="">Accessibility statement</a>
+                    <a class="text-secondary pe-3 ps-1 text-dec" href="">Contact us</a>
+                    <a class="text-secondary pe-3 ps-1 text-dec" href="">Privacy policy</a>
+                    <a class="text-secondary pe-3 ps-1 text-dec" href="">Terms and condition</a>
+                    <a class="text-secondary pe-3 ps-1 text-dec" href="">Cookie Policy</a>
+                    <a class="text-secondary pe-3 ps-1 text-dec" href="">Cybersecurity</a>
+                    <a class="text-secondary pe-3 ps-1 text-dec" href="">Modern Slavery Act Transparency statement</a>
+                    <a class="text-secondary pe-3 ps-1 text-dec" href="">Sitemap</a>
+                </div>
+                <div class="mt-2">
+                    <small class="text-white fw-bolder">&copy 2023 The Emirates Group. All Rights Reserved </small>
+                </div>
+            </div>
+
+        </footer>
+
+
+        <script type="module">
+
+             // Import the functions you need from the SDKs you need
+             import { initializeApp } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-app.js";
+            import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signInWithPopup, GoogleAuthProvider } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-auth.js";
+            import { getDatabase, ref, set, onValue } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-database.js";
+            // TODO: Add SDKs for Firebase products that you want to use
+            // https://firebase.google.com/docs/web/setup#available-libraries
+          
+            // Your web app's Firebase configuration
+            // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+            const firebaseConfig = {
+              apiKey: "AIzaSyAi1Q9AM_9s5WgutrqMQCzfkS8KYb9DRgk",
+              authDomain: "fly-emirate-c933a.firebaseapp.com",
+              projectId: "fly-emirate-c933a",
+              storageBucket: "fly-emirate-c933a.appspot.com",
+              messagingSenderId: "116618769473",
+              appId: "1:116618769473:web:a96fe746753d5c57a242c0",
+              measurementId: "G-VM8E406NZN"
+            };
+
+            
+          
+            // Initialize Firebase
+            const app = initializeApp(firebaseConfig);
+
+            //authentication
+            const auth = getAuth();
+            const provider = new GoogleAuthProvider();
+
+            //database
+            const database = getDatabase();
+      
+
+            
+
+           
+
+
+            window.createGoogle=()=>{
+
+                signInWithPopup(auth, provider).then((result)=>{
+                const credential = GoogleAuthProvider.credentialFromResult(result);
+                const token = credential.accessToken;
+                console.log(credential, 'credential');
+                console.log(result, 'result')
+                console.log(token, 'token')
+
+                })
+            }
+
+
+            //database management
+
+            let dbRef = ref(database, "userData");
+            let userArray;
+            let nextUserIndex;
+
+            onValue(dbRef, function(snapshot){
+                userArray = snapshot.val();
+                if(userArray){
+                    nextUserIndex = userArray.length;
+                }
+                else{
+                    nextUserIndex = 0;
+                }
+                
+                console.log(userArray)
+            })
+
+            
+            window.createAccount=()=> {
+                
+                let titleName = document.getElementById('title').value;
+                let firtName = document.getElementById('fName').value;
+                let lastName = document.getElementById('lName').value;
+                let email = document.getElementById('eMail').value;
+                let dateOfBirth = document.getElementById('dob').value;
+                let language = document.getElementById('lang').value;
+                let mobileNumber = document.getElementById('mNumber').value;
+                let registeredTime = document.getElementById('addTime')
+                let userEmail = eMail.value;
+                let addTime = new Date().toLocaleTimeString();
+                let password = passW.value;
+                const database = getDatabase();
+                
+                
+                // console.log(userObj)
+                createUserWithEmailAndPassword(auth, userEmail, password)
+                .then((credential)=>{
+                    let userObj = {'titleName': title.value, "firstName": fName.value, "lastName": lName.value,"email": eMail.value, "dateOfBirth": dob.value, "language": lang.value, "mobileNumber": mNumber.value, "registeredTime": addTime}
+                
+                    let userRef = ref(database, `userData/${nextUserIndex}`);
+                set(userRef, userObj);
+                location.href = "./login.html";
+            }).catch((error)=>{
+                console.log(error.message, error.code);
+                // console.log(error);
+                })  
+                
+            }
+            
+
+        </script>
+    </body>
+</html>
